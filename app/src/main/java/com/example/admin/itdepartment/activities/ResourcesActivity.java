@@ -44,6 +44,7 @@ public class ResourcesActivity extends BaseActivity {
         Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://mjcollege.ac.in/studentresourceslist.php?resourceusername=farha"));
         startActivity(browserIntent);
     }
+    //change
     public void ibutton7 (View view){
         Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://mjcollege.ac.in/studentresourceslist.php?resourceusername=g.vani"));
         startActivity(browserIntent);
