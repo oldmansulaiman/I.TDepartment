@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.itdepartment.activities.MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/activity_main_text_head"
+        android:text="   RECENT UPDATES"
+        android:textColor="#f7dc6f"
+        android:typeface="monospace"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:background="#000"
+        android:padding="5dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="8dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/activity_main_list"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/activity_main_text_head"
+        android:layout_above="@+id/hv"
+        android:scrollbarStyle="outsideOverlay"
+        android:background="#d6eaf8"
+        android:layout_marginBottom="10dp"
+        >
+
+    </ListView>
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hv"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/login"
+                android:onClick="log"
+                android:background="@drawable/roundb_layout"
+                android:id="@+id/activity_main_login"
+                android:backgroundTint="#fdfefe"
+                android:layout_marginLeft="10dp"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/vision"
+                android:background="@drawable/roundb_layout"
+                android:id="@+id/activity_main_vision"
+                android:onClick="vis"
+                android:backgroundTint="#fdfefe"
+                android:layout_toRightOf="@+id/activity_main_login"
+                android:layout_marginLeft="20dp"
+                />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mission"
+                android:background="@drawable/roundb_layout"
+                android:id="@+id/activity_main_mission"
+                android:onClick="mis"
+                android:backgroundTint="#fdfefe"
+                android:layout_toRightOf="@+id/activity_main_vision"
+                android:layout_marginLeft="20dp"
+                />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/about_us"
+                android:background="@drawable/roundb_layout"
+                android:id="@+id/activity_main_about"
+                android:onClick="abt"
+                android:backgroundTint="#fdfefe"
+                android:layout_toRightOf="@+id/activity_main_mission"
+                android:layout_marginLeft="20dp"/>
+
+
+
+
+
+        </RelativeLayout>
+    </HorizontalScrollView>
+
+
+</RelativeLayout>

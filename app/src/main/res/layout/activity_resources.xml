@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STUDENT RESOURCES"
+        android:textStyle="bold"
+        android:textColor="#000000"
+
+        android:id="@+id/t5"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:textSize="35sp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Afshan Kaleem"
+        android:id="@+id/ibutton1"
+        android:onClick="ibutton1"
+        android:layout_below="@+id/t5"
+        android:textColor="@color/textcolor"
+        android:background="@color/backcolor"/>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alefiah Mubeen"
+        android:id="@+id/ibutton2"
+        android:onClick="ibutton2"
+        android:layout_below="@+id/ibutton1"
+        android:textColor="@color/textcolor"
+        android:background="@color/backcolor"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Arif MHussain Mohammed"
+        android:id="@+id/ibutton3"
+        android:onClick="ibutton3"
+        android:layout_below="@+id/ibutton2"
+        android:textColor="@color/textcolor"
+        android:background="@color/backcolor"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Asia Sulatan"
+        android:id="@+id/ibutton4"
+        android:onClick="ibutton4"
+        android:layout_below="@+id/ibutton3"
+        android:textColor="@color/textcolor"
+        android:background="@color/backcolor"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Asrar Ahmed"
+        android:id="@+id/ibutton5"
+        android:onClick="ibutton5"
+        android:layout_below="@+id/ibutton4"
+        android:textColor="@color/textcolor"
+        android:background="@color/backcolor"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Farha Nausheen"
+        android:id="@+id/ibutton6"
+        android:onClick="ibutton6"
+        android:layout_below="@+id/ibutton5"
+        android:textColor="@color/textcolor"
+        android:background="@color/backcolor"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="G.Vani"
+        android:id="@+id/ibutton7"
+        android:onClick="ibutton7"
+        android:layout_below="@+id/ibutton6"
+        android:textColor="@color/textcolor"
+        android:background="@color/backcolor"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Himayatullah Shareef"
+        android:id="@+id/ibutton8"
+        android:onClick="ibutton8"
+        android:layout_below="@+id/ibutton7"
+        android:textColor="@color/textcolor"
+        android:background="@color/backcolor"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="K.Ramu"
+        android:id="@+id/ibutton9"
+        android:onClick="ibutton9"
+        android:layout_below="@+id/ibutton8"
+        android:textColor="@color/textcolor"
+        android:background="@color/backcolor"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="M.A.Rasheed"
+        android:id="@+id/ibutton10"
+        android:onClick="ibutton10"
+        android:layout_below="@+id/ibutton9"
+        android:textColor="@color/textcolor"
+        android:background="@color/backcolor"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="M.Durga Venkata Prasad"
+        android:id="@+id/ibutton11"
+        android:onClick="ibutton11"
+        android:layout_below="@+id/ibutton10"
+        android:textColor="@color/textcolor"
+        android:background="@color/backcolor"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Maniza Hijab"
+        android:id="@+id/ibutton12"
+        android:onClick="ibutton12"
+        android:layout_below="@+id/ibutton11"
+        android:textColor="@color/textcolor"
+        android:background="@color/backcolor"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Md.Ibrahim Khaleelullah"
+        android:id="@+id/ibutton13"
+        android:onClick="ibutton13"
+        android:layout_below="@+id/ibutton12"
+        android:textColor="@color/textcolor"
+        android:background="@color/backcolor"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mohammed Abdul Wajid"
+        android:id="@+id/ibutton14"
+        android:onClick="ibutton14"
+        android:layout_below="@+id/ibutton13"
+        android:textColor="@color/textcolor"
+        android:background="@color/backcolor"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mohammed Afroze"
+        android:id="@+id/ibutton15"
+        android:onClick="ibutton15"
+        android:layout_below="@+id/ibutton14"
+        android:textColor="@color/textcolor"
+        android:background="@color/backcolor"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mohammed Pasha"
+        android:id="@+id/ibutton16"
+        android:onClick="ibutton16"
+        android:layout_below="@+id/ibutton15"
+        android:textColor="@color/textcolor"
+        android:background="@color/backcolor"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mohammed Riyazuddin"
+        android:id="@+id/ibutton17"
+        android:onClick="ibutton17"
+        android:layout_below="@+id/ibutton16"
+        android:textColor="@color/textcolor"
+        android:background="@color/backcolor"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mohammed Sarfaraz Ahmed"
+        android:id="@+id/ibutton18"
+        android:onClick="ibutton18"
+        android:layout_below="@+id/ibutton17"
+        android:textColor="@color/textcolor"
+        android:background="@color/backcolor"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Munavvara Tahaseen"
+        android:id="@+id/ibutton19"
+        android:onClick="ibutton19"
+        android:layout_below="@+id/ibutton18"
+        android:textColor="@color/textcolor"
+        android:background="@color/backcolor"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="N.Md>Jubair Basha"
+        android:id="@+id/ibutton20"
+        android:onClick="ibutton20"
+        android:layout_below="@+id/ibutton19"
+        android:textColor="@color/textcolor"
+        android:background="@color/backcolor"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Syeda Hajera Begum"
+        android:id="@+id/ibutton21"
+        android:onClick="ibutton21"
+        android:layout_below="@+id/ibutton20"
+        android:textColor="@color/textcolor"
+        android:background="@color/backcolor"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shaik Rasool"
+        android:id="@+id/ibutton22"
+        android:onClick="ibutton22"
+        android:layout_below="@+id/ibutton21"
+        android:textColor="@color/textcolor"
+        android:background="@color/backcolor"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Syed Azhar Ali"
+        android:id="@+id/ibutton23"
+        android:onClick="ibutton23"
+        android:layout_below="@+id/ibutton22"
+        android:textColor="@color/textcolor"
+        android:background="@color/backcolor"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Syeda Fouzia Sayeedunnisa"
+        android:id="@+id/ibutton24"
+        android:onClick="ibutton24"
+        android:layout_below="@+id/ibutton23"
+        android:textColor="@color/textcolor"
+        android:background="@color/backcolor"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Uma N.Dulhare"
+        android:id="@+id/ibutton25"
+        android:onClick="ibutton25"
+        android:layout_below="@+id/ibutton24"
+        android:textColor="@color/textcolor"
+        android:background="@color/backcolor"/>
+    </RelativeLayout>
+
+</ScrollView>
+
+</RelativeLayout>

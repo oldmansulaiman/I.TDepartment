@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.18"
+        android:onClick="attend"
+        android:id="@+id/activity_student_attendance"
+        android:background="#5f6a6a"
+        android:text="ATTENDANCE"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        android:textColor="#d35400"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.18"
+        android:onClick="marks"
+        android:id="@+id/activity_student_marks"
+        android:background="#5f6a6a"
+        android:text="MARKS"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        android:textColor="#d35400"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.18"
+        android:onClick="resources"
+        android:id="@+id/activity_student_resources"
+        android:background="#5f6a6a"
+        android:text="STUDENT RESOURCES"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        android:textColor="#d35400"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.18"
+        android:onClick="acm"
+        android:id="@+id/activity_student_acm"
+        android:background="#5f6a6a"
+        android:text="A.C.M"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        android:textColor="#d35400"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.18"
+        android:onClick="cal"
+        android:id="@+id/activity_student_calender"
+        android:background="#5f6a6a"
+        android:text="ALMANAC"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        android:textColor="#d35400"
+        android:layout_marginTop="15dp"/>
+</LinearLayout>

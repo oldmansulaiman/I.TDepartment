@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">I.T Department</string>
+    <string name="text_with_paragraphs1">
+ To create an ambience of academic excellence
+    through state of art infrastructure and
+    learner-centric pedagogy leading to
+    employability in multi-disciplinary fields.
+</string>
+    <string name="text_with_paragraphs">
+ Fostering a bright technological future
+    by enabling the students to function
+    as leaders in software industry and
+    serve as means of transformation to
+    empower society through ITeS.
+</string>
+</resources>

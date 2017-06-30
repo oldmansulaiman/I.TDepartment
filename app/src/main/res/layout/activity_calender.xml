@@ -1,0 +1,190 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ACADEMICS CALENDER"
+            android:textStyle="bold"
+            android:textColor="#784a56"
+            android:textSize="30sp"
+            android:id="@+id/cal"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cal"
+            android:layout_marginTop="25dp"
+            android:text="     All Branches B.E II,III,IV(I Semester)"
+            android:textSize="20sp"
+            android:background="#06835b"
+            android:textColor="#ffffff"
+            android:id="@+id/sem1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sem1"
+            android:id="@+id/s1"
+            android:background="#a0c6a1"
+            android:text="                              Particulars                               Dates"
+            android:textSize="15sp"
+            android:layout_marginTop="2dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#06835b"
+            android:layout_below="@+id/s1"
+            android:text="         Commencement of Instruction        11-07-2016"
+            android:textSize="15sp"
+            android:textColor="#ffffff"
+            android:id="@+id/s2"
+            android:layout_marginTop="2dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/s2"
+            android:background="#a0c6a1"
+            android:text="                             I Class Tests                     29-08-2016"
+            android:textSize="15sp"
+            android:id="@+id/s3"
+            android:layout_marginTop="2dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/s4"
+            android:layout_below="@+id/s3"
+            android:background="#06835b"
+            android:textSize="15sp"
+            android:text="                            II Class Tests                     20-10-2016"
+            android:textColor="#ffffff"
+            android:layout_marginTop="2dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/s5"
+            android:layout_below="@+id/s4"
+            android:background="#a0c6a1"
+            android:text="                   Last date of Instructions         29-10-2016"
+            android:textSize="15sp"
+            android:layout_marginTop="2dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/s6"
+            android:layout_below="@+id/s5"
+            android:background="#06835b"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:text="               Preparation, Practical Exams      31-10-2016"
+            android:layout_marginTop="2dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/s7"
+            android:layout_below="@+id/s6"
+            android:background="#a0c6a1"
+            android:text="        Commencement of Theory Exams   21-11-2016"
+            android:textSize="15sp"
+            android:layout_marginTop="2dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/s7"
+            android:layout_marginTop="25dp"
+            android:text="    All Branches B.E II,III,IV(II Semester)"
+            android:textSize="20sp"
+            android:background="#06835b"
+            android:textColor="#ffffff"
+            android:id="@+id/sem8"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sem8"
+            android:id="@+id/s9"
+            android:background="#a0c6a1"
+            android:text="                             Particulars                               Dates"
+            android:textSize="15sp"
+            android:layout_marginTop="2dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#06835b"
+            android:layout_below="@+id/s9"
+            android:text="            Commencement of Instruction     02-01-2017"
+            android:textSize="15sp"
+            android:textColor="#ffffff"
+            android:id="@+id/s10"
+            android:layout_marginTop="2dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/s10"
+            android:background="#a0c6a1"
+            android:text="                             I Class Tests                     20-02-2017"
+            android:textSize="15sp"
+            android:id="@+id/s11"
+            android:layout_marginTop="2dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/s12"
+            android:layout_below="@+id/s11"
+            android:background="#06835b"
+            android:textSize="15sp"
+            android:text="                            II Class Tests                     12-04-2017"
+            android:textColor="#ffffff"
+            android:layout_marginTop="2dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/s13"
+            android:layout_below="@+id/s12"
+            android:background="#a0c6a1"
+            android:text="                    Last date of Instructions         22-04-2017"
+            android:textSize="15sp"
+            android:layout_marginTop="2dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/s14"
+            android:layout_below="@+id/s13"
+            android:background="#06835b"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:text="                Preparation, Practical Exams      24-04-2017"
+            android:layout_marginTop="2dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/s15"
+            android:layout_below="@+id/s14"
+            android:background="#a0c6a1"
+            android:text="         Commencement of Theory Exams   08-05-2017"
+            android:textSize="15sp"
+            android:layout_marginTop="2dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/s16"
+            android:layout_below="@+id/s15"
+            android:background="#06835b"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:text="                          Summer Vacation                01-05-2017"/>
+
+
+    </RelativeLayout>
+</ScrollView>

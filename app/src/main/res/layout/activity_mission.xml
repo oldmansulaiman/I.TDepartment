@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mission_back">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_with_paragraphs1"
+        android:textSize="25dp"
+        android:textColor="#ecf0f1"
+        android:textStyle="italic"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="170dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MISSION"
+        android:textColor="#d7dbdd"
+        android:textStyle="bold"
+        android:textSize="50dp"
+        android:layout_marginLeft="83dp"
+        android:layout_marginTop="60dp" />
+</RelativeLayout>

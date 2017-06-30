@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:background="#000">
+
+
+    <TextView
+        android:id="@+id/activity_attendance_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#e74c3c"
+        android:layout_marginTop="160dp"
+        android:textSize="85sp" />
+
+    <TextView
+        android:id="@+id/activity_attendance_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#e74c3c"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+</LinearLayout>
